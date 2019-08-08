@@ -2347,6 +2347,156 @@ span.email-notes {
   margin: 0;
   padding-top: 30px;
 }
+/*---------my style---------*/
+.boxStyle {
+  border: 1px solid #e2e2e2;
+  background: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  min-height: 200px;
+  margin-top: 15px;
+}
+.boxStyle h4{
+   color:#B71B23;
+ }
+.icon-background{
+  color:#867e7e;
+ }
+ .icon-image{
+ color:white;
+ }
+/*--- innovation ----*/
+.innovation{
+  width:100%;
+  margin:auto;
+  padding-top:30px;
+}
+.innovation-grids{
+  height:370px;
+  margin-top:40px;
+  background:url(../images/innovation.png) 
+  no-repeat center; margin-bottom:30px;
+}
+.innovation-grid.one{
+  width:26%;
+  float:left;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
+  padding-top:120px;
+  padding-left:50px;
+}
+.innovation-grid.two{
+  width:21%;
+  float:left;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
+  padding-top:170px; padding-left:50px;
+}
+.innovation-grid.three{
+  width:23%;
+  float:left;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;padding-top:90px;padding-left:50px;
+}
+.innovation-grid.four{
+  width:23%;
+  float:left;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;padding-top:130px;padding-left:50px;
+}
+.innovation-grid:hover{
+}
+.innovation-grid img{
+  width:100%;
+  display:block;
+}
+.innovation-info{
+  position: relative;
+}
+.innovation-info h3 {
+  color:#FFF;
+  font-size:20px;
+  font-family:OpenSansRegular;
+  text-align:center
+  
+}
+
+.innovation-info h3:hover{
+  text-decoration:none;
+}
+.innovation-info p{
+  color: #fff;
+  font-size: 0.875em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+.innovation-info span{
+  width: 34px;
+  height: 21px;
+  display: inline-block;
+  background: url(../images/top-arrow.png) no-repeat 0px 0px;
+  position: absolute;
+  top: -16px;
+  left: 40%;
+}
+.innovation-grid:hover div.innovation-info span{
+  background: url(../images/top-arrowb.png) no-repeat 0px 0px;
+}
+.bottom-t-info-b span{
+  width: 34px;
+  height: 21px;
+  display: inline-block;
+  background: url(../images/down-arrowb.png) no-repeat 0px 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+  top: 211px;
+}
+.innovation-grid:hover div.bottom-t-info-b span{
+  background: url(../images/down-arrow.png) no-repeat 0px 0px;
+}
+.bottom-t-info-b{
+  padding:0 1em;
+}
+.bottom-t-info-b h3{
+  margin:0.48em 0;
+}
+.innovation-grids{
+  padding:0;
+}
+.innovation-head{
+  background:none;
+}
+img-circle:auto{
+  transform:rotate(3240deg);
+  transition:2s;
+}
+.btn-info:hover{
+  background-color:#9c0d0d;
+}
+.btn-default{
+  padding:10px;
+  border-radius:20px;
+  width: 50%;
+  background-color:;
+  border:2px solid skyblue;
+}
+.hover:hover{
+ box-shadow:2px 2px 2px 2px black;
+}
 
 /*----------------------------------------
  .End CSS
