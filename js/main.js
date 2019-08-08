@@ -6,7 +6,7 @@
   ---------------------------- */
   $(window).on('load', function() {
     var pre_loader = $('#preloader');
-    pre_loader.fadeOut('slow', function() {
+    pre_loader.fadeOut('1000', function() {
       $(this).remove();
     });
   });
