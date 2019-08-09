@@ -243,7 +243,7 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #fff !important;
   font-size: 15px;
   font-weight: 500;
   padding:12px 0px;
@@ -393,7 +393,8 @@ div#preloader {
 
 .stick .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #fff!important;
+  background-color: #000000!important;
   position: relative;
 }
 
@@ -433,7 +434,7 @@ div#preloader {
   padding: 10px 0px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    color: #fff !important;
+    color: #3EC1D5 !important;
     background-color: #000000 !important;
 }
 /*------------------------------

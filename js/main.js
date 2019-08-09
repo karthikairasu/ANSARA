@@ -6,7 +6,7 @@
   ---------------------------- */
   $(window).on('load', function() {
     var pre_loader = $('#preloader');
-    pre_loader.fadeOut('1000', function() {
+    pre_loader.fadeOut('slow', function() {
       $(this).remove();
     });
   });
@@ -39,7 +39,7 @@
   ------------------------------ */
   new WOW().init();
 
-  $(".navbar-collapse a").on('click', function() {
+  $(".navbar-collapse a:not(.dropdown-toggle)").on('click', function() {
     $(".navbar-collapse.collapse").removeClass('in');
   });
 
