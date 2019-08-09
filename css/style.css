@@ -2462,7 +2462,12 @@ img-circle:auto{
 .hover:hover{
  box-shadow:2px 2px 2px 2px black;
 }
-
+.txt-justify{
+  text-align: justify;
+}
+.px-15{
+  padding:0px 15px;
+}
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
