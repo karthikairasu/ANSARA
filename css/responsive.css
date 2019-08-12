@@ -121,7 +121,7 @@
 @media (max-width: 767px) {
 
   .header-area {
-    height: 60px !important;
+    height: 70px !important;
     background: #000;
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
@@ -143,6 +143,9 @@
   .main-menu ul.navbar-nav li a, .stick .main-menu ul.navbar-nav li a {
     padding: 10px 2px;
   }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000000;
+   }
   .main-menu ul.navbar-nav li.active a::after, .stick .main-menu ul.navbar-nav li.active a::after {
     border: 0px solid #fff;
   }
